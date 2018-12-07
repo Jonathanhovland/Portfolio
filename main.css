@@ -9,6 +9,17 @@
     clip-path: polygon(0% 0%, 100% 0, 100% 70%, 50% 100%, 0 70%);    position: relative;
 }
 
+.portrait {
+    margin-top: .5em;
+    width: 6em;
+    height: 6em;
+    clip-path: circle(50% at 50% 50%);
+
+    animation-name: moveInBottom;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
 .text-box {
     position: absolute;
     top: 40%;
@@ -23,19 +34,60 @@
     text-transform: uppercase;
     
     backface-visibility: hidden;
-    margin-bottom: 60px;
+    margin-bottom: 1em;
 }
 
 .heading-primary-main {
     display: block;
-    font-size: 55px;
+    font-size: 1.3em;
     font-weight: 800;
-    letter-spacing: 15px;
+    letter-spacing: .2em;
+
+    animation-name: moveInTop;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
 }
 
 .heading-primary-sub {
+    color: #000000;
     display: block;
-    font-size: 20px;
+    font-size: .5em;
     font-weight: 500;
-    letter-spacing: 15px;
+    letter-spacing: .2em;
+
+    animation-name: moveInBottom;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+@keyframes moveInTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    80% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        opacity: 1;
+        transition: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        opacity: 1;
+        transition: translate(0);
+    }
 }
