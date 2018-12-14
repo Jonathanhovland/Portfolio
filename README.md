@@ -1,5 +1,5 @@
 # Portfolio
 -Contact
--About me
+-About Me
 -Projects
 
