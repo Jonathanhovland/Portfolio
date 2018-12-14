@@ -1,0 +1,54 @@
+.heading-primary {
+    // color: $color-white;
+    text-transform: uppercase;
+    
+    backface-visibility: hidden;
+    margin-bottom: -2rem;
+    
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 600;
+        letter-spacing: 1.5rem;
+    
+        animation-name: moveInTop;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+    }
+    
+    &--sub {
+        color: $color-black;
+        display: block;
+        font-size: 2rem;
+        font-weight: 500;
+        letter-spacing: 1rem;
+        animation: moveInBottom 1s ease-in-out;
+    }
+
+    &--portrait {
+        margin-top: 3rem;
+        padding-right: 2rem;
+        width: 10rem;
+        height: 10rem;
+    
+        animation-name: moveInBottom;
+        animation-duration: 1s;
+        animation-timing-function: ease-in;
+    }
+}
+
+body {
+    box-sizing:  border-box;
+}
+
+.heading-secondary {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: inline-block;
+    background-image: linear-gradient(to right, $color-primary, $color-black);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: .5em;
+    transition: all .2s;
+}
