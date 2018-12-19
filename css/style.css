@@ -81,13 +81,13 @@ body {
   transition: all .2s; }
 
 .section-about {
+  height: 15vh;
   text-transform: uppercase;
   padding-left: 1.7rem;
   backface-visibility: hidden;
   margin-bottom: -2rem; }
   .section-about--portrait {
-    margin-top: 20rem;
-    margin-left: 2rem;
+    margin: 5%;
     width: 20rem;
     height: 20rem;
     clip-path: circle(50% at 50% 50%); }
@@ -95,9 +95,9 @@ body {
     text-transform: none;
     color: #000;
     text-align: center;
-    margin-top: 20rem;
-    margin-left: 1rem;
-    padding: 5rem; }
+    font-size: 1.5rem;
+    margin: 5%;
+    padding-top: 5%; }
 
 .u-center-text {
   text-align: center; }
@@ -437,6 +437,9 @@ body {
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
   top: 0;
   transform: rotate(-135deg); }
+
+.section-about {
+  height: 35vh; }
 
 .section-about {
   background-color: #f7f7f7;
