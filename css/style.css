@@ -225,7 +225,7 @@ body {
           transform: scale(1.1); } }
     .composition__photo--p6 {
       left: 5%;
-      top: 22rem; }
+      top: 23rem; }
       @media only screen and (max-width: 56.25em) {
         .composition__photo--p6 {
           top: 1rem;
