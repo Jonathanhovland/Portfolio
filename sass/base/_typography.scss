@@ -61,9 +61,18 @@ body {
 
     &--portrait {
         margin-top: 20rem;
-        margin-left: 1rem;
+        margin-left: 2rem;
         width: 20rem;
         height: 20rem;
         clip-path: circle(50% at 50% 50%);
+    }
+
+    &--paragraph {
+        text-transform: none;
+        color: $color-black;
+        text-align: center;
+        margin-top: 20rem;
+        margin-left: 1rem;
+        padding: 5rem;
     }
 }
