@@ -57,7 +57,7 @@ body {
     padding-right: 1rem;
     letter-spacing: 1.1rem;
     animation: moveInBottom 1s ease-in-out; }
-  .heading-primary--portrait {
+  .heading-primary--logo {
     margin-top: 3rem;
     padding-right: 2rem;
     width: 10rem;
@@ -79,6 +79,18 @@ body {
   color: transparent;
   letter-spacing: .5em;
   transition: all .2s; }
+
+.section-about {
+  text-transform: uppercase;
+  padding-left: 1.7rem;
+  backface-visibility: hidden;
+  margin-bottom: -2rem; }
+  .section-about--portrait {
+    margin-top: 20rem;
+    margin-left: 1rem;
+    width: 20rem;
+    height: 20rem;
+    clip-path: circle(50% at 50% 50%); }
 
 .u-center-text {
   text-align: center; }
