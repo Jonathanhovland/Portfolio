@@ -27,3 +27,9 @@
         @media only screen and (min-width: 112.5em) { @content };    //1800
     }
 }
+
+
+@mixin uppercased {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
