@@ -7,11 +7,23 @@
 .section-projects {
     background-color: $color-grey-light-1;
     padding: 25rem 0;
-    margin-top: -20vh;
+    background-color: #f7f7f7;
+    padding-top: 4rem;
+    padding-bottom: 25rem;
 }
 
 .section-contact {
     background-color: $color-grey-light-1;
     padding: 25rem 0;
     margin-top: -20vh;
+}
+
+.section-stories {
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
 }
