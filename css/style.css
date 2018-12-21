@@ -314,6 +314,15 @@ body {
     transform: translateX(-4rem) scale(1);
     filter: blur(3px) brightness(80%); }
 
+.contact-icons {
+  width: 22rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
