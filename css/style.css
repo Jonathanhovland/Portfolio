@@ -264,85 +264,25 @@ body {
     transform: scale(0.95); }
 
 .story {
-  width: 75%;
+  width: 60%;
   margin: 0 auto;
-  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-  background-color: rgba(0, 0, 0, 0.6);
   border-radius: .3rem;
-  padding: 6rem;
-  padding-left: 9rem;
-  font-size: 1.6rem; }
+  font-size: 1.5rem; }
   .story__shape {
-    width: 15rem;
-    height: 15rem;
-    float: left;
+    width: 18rem;
+    height: 18rem;
     position: relative;
-    overflow: hidden;
     border-radius: 50%; }
   .story__text {
-    color: #ffffffcc; }
-  .story__caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1.7rem;
-    text-align: center;
-    opacity: 0;
-    transition: all .5s;
-    backface-visibility: hidden; }
-  .story:hover .story__caption {
-    opacity: 1;
-    transform: translate(-50%, -50%); }
-  .story:hover .story__img {
-    transform: translateX(-4rem) scale(1);
-    filter: blur(3px) brightness(80%); }
-
-.story-2 {
-  width: 75%;
-  margin: 0 auto;
-  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-  background-color: rgba(126, 129, 125, 0.6);
-  border-radius: .3rem;
-  padding: 6rem;
-  padding-left: 9rem;
-  font-size: 1.6rem; }
-  .story-2__shape {
-    width: 15rem;
-    height: 15rem;
-    float: left;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%; }
-  .story-2__text {
-    color: #ffffffcc; }
-  .story-2__caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1.7rem;
-    text-align: center;
-    opacity: 0;
-    transition: all .5s;
-    backface-visibility: hidden; }
-  .story-2:hover .story-2__caption {
-    opacity: 1;
-    transform: translate(-50%, -50%); }
-  .story-2:hover .story-2__img {
-    transform: translateX(-4rem) scale(1);
-    filter: blur(3px) brightness(80%); }
+    color: #000; }
 
 .contact-icons {
-  width: 10rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  padding-top: 2rem;
-  padding-bottom: 2rem; }
+  justify-content: center; }
+
+.icon-animate {
+  margin: 1rem; }
 
 .icon-animate:hover {
   transition: all .2s;
