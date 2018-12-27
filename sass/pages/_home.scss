@@ -7,20 +7,22 @@
     background-color: $color-grey-light-1;
     padding: 25rem 0;
     background-color: #f7f7f7;
-    padding-top: 3rem;
-    padding-bottom: 30rem;
+    padding-top: 7rem;
+    padding-bottom: 50rem;
 }
 
 .section-contact {
     background-color: $color-grey-light-1;
     padding: 4rem 0;
     padding-top: 7rem;
+    padding-bottom: 7rem;
 }
 
 .section-projects {
     background-color: $color-grey-light-1;
     position: relative;
-    padding-top: 2rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
     margin-top: 14rem;
 
     @include respond(tab-port) {

@@ -84,3 +84,10 @@ body {
     padding-top: 6rem;
     }
 }
+
+.hr {
+    display:block;
+    border:none;
+    height:.1rem;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from($color-black), to($color-primary-light));
+}

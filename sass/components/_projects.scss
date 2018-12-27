@@ -24,17 +24,19 @@
         }
 
         &--back {
-            transform: rotateY(180deg);ƒ
+            transform: rotateY(180deg);
 
             &-1 {
-                background-color:$color-primary;
+                background-image: linear-gradient(to right bottom, $color-primary, $color-primary-light);
             }
 
             &-2 {
-                background-color: $color-primary;            }
+                background-image: linear-gradient(to right bottom, $color-primary, $color-primary-light);
+            }
 
             &-3 {
-                background-color: $color-primary;            }
+                background-image: linear-gradient(to right bottom, $color-primary, $color-primary-light);
+            }
         }
     }
   

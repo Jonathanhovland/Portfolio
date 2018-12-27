@@ -1,11 +1,11 @@
 .footer {
     height: 60vh;
     background-image: linear-gradient(to bottom,
-        rgba($color-primary, 0.80),
+        rgba($color-primary, 0.20),
         rgba($color-primary-light, 0.80)), 
         url(../img/header.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     margin-top: -9rem;
     position: relative;
 
@@ -14,11 +14,10 @@
     }
 
     &__logo {
-        width: 12rem;
-        margin-right: 1.5rem;
+        width: 10rem;
+        margin-right: 1rem;
         margin-top: 9rem;
         height: auto;
     }
-
 
 }
