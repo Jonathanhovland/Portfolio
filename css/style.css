@@ -86,8 +86,8 @@ body {
   backface-visibility: hidden; }
   .section-about--portrait {
     margin: 5%;
-    width: 20rem;
-    height: 20rem;
+    width: 30%;
+    height: 30%;
     clip-path: circle(50% at 50% 50%); }
   .section-about--paragraph {
     text-transform: none;
@@ -127,12 +127,6 @@ body {
   @media only screen and (max-width: 56.25em) {
     .u-margin-bottom-big {
       margin-bottom: 5rem !important; } }
-
-.u-margin-top-big {
-  margin-top: 8rem !important; }
-
-.u-margin-top-huge {
-  margin-top: 10rem !important; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
