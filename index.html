@@ -20,13 +20,15 @@
 
         <nav class="navigation__nav">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">About</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Projects</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link" onclick="closeNav()">Home</a></li>
+                <li class="navigation__item"><a href="#nav-projects" class="navigation__link" onclick="closeNav()">Projects</a></li>
+                <li class="navigation__item"><a href="#nav-tech" class="navigation__link" onclick="closeNav()">Technologies</a></li>
+                <li class="navigation__item"><a href="#nav-about" class="navigation__link" onclick="closeNav()">About</a></li>
                 </ul>
         </nav>
     </div>
+
+    
     <header class="header">
         <div class="header__text-box">
         <h1 class="heading-primary">
@@ -39,7 +41,7 @@
     <main>
             <section class="section-projects" id="section-projects">
                     <div class="u-center-text u-margin-bottom-big">
-                        <h2 class="heading-secondary">
+                        <h2 class="heading-secondary" id="nav-projects" data-scroll="toggle(.visible, .invisible) once">
                             Projects
                         </h2>
                     </div>
@@ -150,7 +152,7 @@
                 <span class="hr"></span>
         <section class="section-technology">
             <div class="u-center-text u-margin-bottom-8">
-            <h2 class="heading-secondary">
+            <h2 class="heading-secondary" id="nav-tech" data-scroll="toggle(.visible, .invisible) once">
                 Technologies
             </h2>
                 <div class="row">
@@ -243,7 +245,7 @@
                 <span class="hr"></span>
             <section class="section-contact">
                 <div class="u-center-text u-margin-bottom-big">
-                <h2 class="heading-secondary">
+                <h2 class="heading-secondary" id="nav-about" data-scroll="toggle(.visible, .invisible) once">
                     About Me
                 </h2>
                     <div class="row">
