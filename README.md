@@ -2,6 +2,8 @@
 
 Personal Website to represent my developing career.
 
+In Progress
+
 HTML / JavaScript / Sass / CSS
 
 Deployed Link http://hovland.surge.sh/
