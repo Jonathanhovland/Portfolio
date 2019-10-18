@@ -1,8 +1,8 @@
 ## Portfolio
 
-Personal Website to represent my developing career.
-
 In Progress
+
+Personal Website to represent my developing career.
 
 HTML / JavaScript / Sass / CSS
 
